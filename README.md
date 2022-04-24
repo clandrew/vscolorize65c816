@@ -1,4 +1,4 @@
-# vscolorize65c816
+# VSColorize65c816
 This is a Visual Studio extension providing 64tass assembler-compatible syntax highlighting for W65C816. This extension is in early alpha, created for personal convenience.
 
 Notes:

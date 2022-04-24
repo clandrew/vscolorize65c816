@@ -3,6 +3,7 @@ This is a Visual Studio extension providing [64tass assembler-](http://tass64.so
 
 ![Example image](https://raw.githubusercontent.com/clandrew/vscolorize65c816/main/images/example0.png "Example image")
 
+It  doesn't exhaustively try to highlight operators or addressing mode-related punctuation- that was a non-goal. Instead, the aim was simplicity and ease of readability. 
 Language elements colorized:
 * Mnemonics are highlighted as keywords
 * Comments

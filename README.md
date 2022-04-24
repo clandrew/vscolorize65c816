@@ -8,4 +8,4 @@ Language elements colorized:
 * Assembler directives
 
 Notes:
-* The opcode "INC" is not highlighted, because 64tass expects it to be written as "INA".
+* The opcode "INC" is not highlighted, because 64tass's convention is "INA".

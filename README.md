@@ -1,7 +1,7 @@
 # VSColorize65C816
 This is a Visual Studio extension providing [64tass assembler-](http://tass64.sourceforge.net)compatible syntax highlighting for W65C816. This extension was created for personal convenience and is in early alpha.
 
-![Example image](https://raw.githubusercontent.com/clandrew/vscolorize65c816/main/Images/example0.png "Example image")
+![Example image](https://raw.githubusercontent.com/clandrew/vscolorize65c816/main/images/example0.png "Example image")
 
 Language elements colorized:
 * Mnemonics are highlighted as keywords

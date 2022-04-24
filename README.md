@@ -10,7 +10,7 @@ Language elements colorized:
 * String literals
 * Assembler directives
 
-Tested on all the [samples](https://github.com/pweingar/C256Samples) available.
+Tested a number of [samples](https://github.com/pweingar/C256Samples) available.
 
 ## Build
 This extension was written in C# using Visual Studio 2019 Community, tested on the same. It is built for Windows platform x86-64 architecture. To build. open the .sln solution file and choose 'Build' in Visual Studio.

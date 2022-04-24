@@ -7,7 +7,7 @@ It  doesn't exhaustively try to highlight operators or addressing mode-related p
 Language elements colorized:
 * Mnemonics are highlighted as keywords
 * Comments
-* Strings
+* String literals
 * Assembler directives
 
 Tested on all the [samples](https://github.com/pweingar/C256Samples) available.
@@ -18,3 +18,4 @@ This extension was written in C# using Visual Studio 2019 Community, tested on t
 ## Notes
 * The opcode "INC" is not highlighted, because 64tass's convention is "INA".
 * Some alternate mnemonics in 64tass's documentation such as CLP and CSP are recognized.
+* String literals for the assembler are surrounded by "quotes". If you need to put a quote in a string literal, you escape it by using two quotes. This case is handled by the extension.

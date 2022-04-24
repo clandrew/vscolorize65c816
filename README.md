@@ -9,5 +9,9 @@ Language elements colorized:
 * Strings
 * Assembler directives
 
-Notes:
+## Build
+This extension was written in C# using Visual Studio 2019 Community, tested on the same. It is built for Windows platform x86-64 architecture. To build. open the .sln solution file and choose 'Build' in Visual Studio.
+
+## Notes
 * The opcode "INC" is not highlighted, because 64tass's convention is "INA".
+* Uncommon alternate mnemonics in 64tass's documentation such as CLP and CSP are recognized.

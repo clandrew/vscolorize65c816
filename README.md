@@ -14,4 +14,4 @@ This extension was written in C# using Visual Studio 2019 Community, tested on t
 
 ## Notes
 * The opcode "INC" is not highlighted, because 64tass's convention is "INA".
-* Uncommon alternate mnemonics in 64tass's documentation such as CLP and CSP are recognized.
+* Some alternate mnemonics in 64tass's documentation such as CLP and CSP are recognized.

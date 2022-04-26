@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="VSColorize65C816.f9a96524-9478-4a59-9256-d1f19dccb1f0" Version="1.0" Language="en-US" Publisher="ClAndrew" />
+        <Identity Id="VSColorize65C816.f9a96524-9478-4a59-9256-d1f19dccb1f0" Version="1.1" Language="en-US" Publisher="ClAndrew" />
         <DisplayName>W65C816 Syntax Highlighting</DisplayName>
         <Description xml:space="preserve">Provides 64tass assembler-compatible W65C816 syntax highlighting for .s and .asm source files.</Description>
         <Preview>true</Preview>

@@ -223,7 +223,7 @@ namespace VSColorize65C816
                     }
                     else if (text[index] == '\"')
                     {
-                        // Strings are enclosed with ". Literal quotes are represented as two "", so we don't need to do anything special to handle escaped literal quotes.
+                        // Strings are enclosed with ". Literal quotes are represented as two "".
                         uint color = s == State.DirectiveWithStringArg ? (uint)Colors.Preprocessor_Gray : (uint)Colors.Red_String;
 
                         // Grey or red out from here to the end of the string
@@ -231,7 +231,13 @@ namespace VSColorize65C816
                         int j = index + 1;
                         while (j < text.Length)
                         {
-                            if (text[j] == '\"')
+                            if (j < text.Length - 1 && text[j] == '\"' && text[j+1] == '\"')
+                            {
+                                attributes[j] = color;
+                                attributes[j+1] = color;
+                                j += 2;
+                            }
+                            else if (text[j] == '\"')
                             {
                                 attributes[j] = color;
                                 ++j;

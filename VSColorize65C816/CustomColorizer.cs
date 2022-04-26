@@ -43,8 +43,6 @@ namespace VSColorize65C816
             enum State
             {
                 None,
-                Comment,
-                DirectiveWithNoArg,
                 DirectiveWithStringArg,
             }
             State s = State.None;

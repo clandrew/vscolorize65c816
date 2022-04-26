@@ -49,7 +49,6 @@
     <Compile Include="CustomLanguageInfo.cs" />
     <Compile Include="CustomPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VSColorize65C816Package.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="source.extension.vsixmanifest">
